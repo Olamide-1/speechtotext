@@ -62,7 +62,7 @@ class _RecordPageState extends State<RecordPage> {
         sampleRate: kAudioSampleRate);
 
     final serviceAccount = ServiceAccount.fromString(
-        (await rootBundle.loadString('speechtotext-392700-95778e2b587d.json')));
+        (await rootBundle.loadString('test.json')));
     final speechToText = SpeechToText.viaServiceAccount(serviceAccount);
     final config = _getConfig();
 
